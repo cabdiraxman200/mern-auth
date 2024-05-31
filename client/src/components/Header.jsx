@@ -16,7 +16,7 @@ const Header = () => {
             </Link>
             <Link to='/sign-in'>
             <li>Sign In</li>
-            </Link> 
+            </Link>  
         </ul>
         </div>
 
@@ -24,4 +24,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

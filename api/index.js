@@ -6,7 +6,8 @@ const app=express()
 mongoose.connect(process.env.MONGO).then(()=>{
     console.log("connected to MongoDB");
     
-}).catch((err)=>{
+})
+.catch((err)=>{
     console.log(err)
 });
 
