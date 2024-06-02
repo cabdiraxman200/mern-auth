@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import {Link} from "react-router-dom";
-
 const SignUp = () => {
       const [formData, setFormData]= useState({});
       const [error,setError]=useState(false)
